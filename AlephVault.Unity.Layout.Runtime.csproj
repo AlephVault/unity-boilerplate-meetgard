@@ -13,7 +13,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{ae8cba61-d5f7-b1b8-c215-bd393214fe01}</ProjectGuid>
+    <ProjectGuid>{dbdc356a-0dc8-d61d-3418-5c7a58dcdd09}</ProjectGuid>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -52,8 +52,8 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-layout\Runtime\Utils\Assets.cs" />
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-layout\Runtime\Utils\Behaviours.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-layout\Runtime\Utils\Assets.cs" />
      <None Include="\home\luismasuelli\Projects\Unity\unity-layout\Runtime\AlephVault.Unity.Layout.Runtime.asmdef" />
  <Reference Include="UnityEngine">
  <HintPath>/home/luismasuelli/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
@@ -287,16 +287,16 @@
  <HintPath>/home/luismasuelli/Unity/Hub/Editor/2020.3.12f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Plastic.Antlr3.Runtime">
- <HintPath>/home/luismasuelli/Projects/Unity/My Meetgard Game/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+ <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-meetgard/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
  </Reference>
  <Reference Include="log4netPlastic">
- <HintPath>/home/luismasuelli/Projects/Unity/My Meetgard Game/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+ <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-meetgard/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
  </Reference>
  <Reference Include="Newtonsoft.Json">
- <HintPath>/home/luismasuelli/Projects/Unity/My Meetgard Game/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+ <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-meetgard/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
  </Reference>
  <Reference Include="unityplastic">
- <HintPath>/home/luismasuelli/Projects/Unity/My Meetgard Game/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
+ <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-meetgard/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
  </Reference>
  <Reference Include="netstandard">
  <HintPath>/home/luismasuelli/Unity/Hub/Editor/2020.3.12f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
@@ -644,15 +644,15 @@
  <HintPath>/home/luismasuelli/Unity/Hub/Editor/2020.3.12f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/mscorlib.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
- <HintPath>/home/luismasuelli/Projects/Unity/My Meetgard Game/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-meetgard/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>/home/luismasuelli/Projects/Unity/My Meetgard Game/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-meetgard/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="AlephVault.Unity.Support.Runtime.csproj">
-      <Project>{526d28d2-63d7-2083-eb4c-42642fbf7b6a}</Project>
+      <Project>{47b03323-f539-daa5-ef09-5260730ae3fd}</Project>
       <Name>AlephVault.Unity.Support.Runtime</Name>
     </ProjectReference>
   </ItemGroup>

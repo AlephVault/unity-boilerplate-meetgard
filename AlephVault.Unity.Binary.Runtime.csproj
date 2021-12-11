@@ -13,7 +13,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{975d2db9-7eec-deca-e274-49f68bd5855e}</ProjectGuid>
+    <ProjectGuid>{ab833911-51d2-3778-2ec4-44e543521e8f}</ProjectGuid>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -52,40 +52,40 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-binary\Runtime\Wrappers\ByteArray.cs" />
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-binary\Runtime\Buffer.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-binary\Runtime\Wrappers\Vector3.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-binary\Runtime\Wrappers\Quaternion.cs" />
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-binary\Runtime\Wrappers\Color.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-binary\Runtime\Unions\Bool.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-binary\Runtime\Wrappers\Enum.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-binary\Runtime\Wrappers\Ray2D.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-binary\Runtime\Wrappers\Vector3.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-binary\Runtime\Wrappers\Double.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-binary\Runtime\Wrappers\UShort.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-binary\Runtime\Wrappers\Char.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-binary\Runtime\Unions\Float8.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-binary\Runtime\Wrappers\Byte.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-binary\Runtime\Wrappers\SByte.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-binary\Runtime\Wrappers\Vector2.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-binary\Runtime\Serializer.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-binary\Runtime\Wrappers\Quaternion.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-binary\Runtime\Wrappers\Vector4.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-binary\Runtime\Wrappers\Long.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-binary\Runtime\BinaryUtils.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-binary\Runtime\Wrappers\Wrapper.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-binary\Runtime\PooledBuffer.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-binary\Runtime\Unions\Float4.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-binary\Runtime\Wrappers\Color32.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-binary\Runtime\Wrappers\Ray.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-binary\Runtime\Wrappers\String.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-binary\Runtime\ISerializable.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-binary\Runtime\Wrappers\ByteArray.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-binary\Runtime\Writer.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-binary\Runtime\Reader.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-binary\Runtime\Wrappers\Int.cs" />
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-binary\Runtime\Wrappers\UInt.cs" />
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-binary\Runtime\Wrappers\Bool.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-binary\Runtime\Wrappers\Long.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-binary\Runtime\Wrappers\ULong.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-binary\Runtime\BinaryUtils.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-binary\Runtime\PooledBuffer.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-binary\Runtime\Unions\Bool.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-binary\Runtime\Wrappers\String.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-binary\Runtime\Unions\Float8.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-binary\Runtime\Wrappers\Double.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-binary\Runtime\Wrappers\Float.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-binary\Runtime\Wrappers\Ray2D.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-binary\Runtime\Reader.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-binary\Runtime\Wrappers\Ray.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-binary\Runtime\Wrappers\SByte.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-binary\Runtime\ISerializable.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-binary\Runtime\Wrappers\Vector4.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-binary\Runtime\Wrappers\Color32.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-binary\Runtime\Wrappers\Wrapper.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-binary\Runtime\Wrappers\UShort.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-binary\Runtime\Writer.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-binary\Runtime\Wrappers\Int.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-binary\Runtime\Wrappers\Enum.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-binary\Runtime\Serializer.cs" />
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-binary\Runtime\Wrappers\Short.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-binary\Runtime\Wrappers\Byte.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-binary\Runtime\Wrappers\Char.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-binary\Runtime\Wrappers\Vector2.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-binary\Runtime\Unions\Float4.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-binary\Runtime\Wrappers\ULong.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-binary\Runtime\Wrappers\Float.cs" />
      <None Include="\home\luismasuelli\Projects\Unity\unity-binary\Runtime\AlephVault.Unity.Binary.Runtime.asmdef" />
  <Reference Include="UnityEngine">
  <HintPath>/home/luismasuelli/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
@@ -319,16 +319,16 @@
  <HintPath>/home/luismasuelli/Unity/Hub/Editor/2020.3.12f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Plastic.Antlr3.Runtime">
- <HintPath>/home/luismasuelli/Projects/Unity/My Meetgard Game/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+ <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-meetgard/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
  </Reference>
  <Reference Include="log4netPlastic">
- <HintPath>/home/luismasuelli/Projects/Unity/My Meetgard Game/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+ <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-meetgard/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
  </Reference>
  <Reference Include="Newtonsoft.Json">
- <HintPath>/home/luismasuelli/Projects/Unity/My Meetgard Game/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+ <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-meetgard/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
  </Reference>
  <Reference Include="unityplastic">
- <HintPath>/home/luismasuelli/Projects/Unity/My Meetgard Game/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
+ <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-meetgard/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
  </Reference>
  <Reference Include="netstandard">
  <HintPath>/home/luismasuelli/Unity/Hub/Editor/2020.3.12f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
@@ -676,15 +676,15 @@
  <HintPath>/home/luismasuelli/Unity/Hub/Editor/2020.3.12f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/mscorlib.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
- <HintPath>/home/luismasuelli/Projects/Unity/My Meetgard Game/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-meetgard/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>/home/luismasuelli/Projects/Unity/My Meetgard Game/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-meetgard/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="AlephVault.Unity.Support.Runtime.csproj">
-      <Project>{526d28d2-63d7-2083-eb4c-42642fbf7b6a}</Project>
+      <Project>{47b03323-f539-daa5-ef09-5260730ae3fd}</Project>
       <Name>AlephVault.Unity.Support.Runtime</Name>
     </ProjectReference>
   </ItemGroup>
