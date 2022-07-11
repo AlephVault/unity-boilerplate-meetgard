@@ -31,7 +31,7 @@
       "depth": 0,
       "source": "local",
       "dependencies": {
-        "com.alephvault.unity.meetgard": "0.0.1",
+        "com.alephvault.unity.meetgard": "0.0.2",
         "com.alephvault.unity.support.generic": "0.0.1"
       }
     },
@@ -40,8 +40,18 @@
       "depth": 0,
       "source": "local",
       "dependencies": {
-        "com.alephvault.unity.meetgard": "0.0.1",
+        "com.alephvault.unity.meetgard": "0.0.2",
         "com.alephvault.unity.support.generic": "0.0.1"
+      }
+    },
+    "com.alephvault.unity.remotestorage": {
+      "version": "file:../../unity-remotestorage",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {
+        "com.alephvault.unity.support": "0.0.2",
+        "com.alephvault.unity.support.generic": "0.0.1",
+        "com.unity.nuget.newtonsoft-json": "2.0.0"
       }
     },
     "com.alephvault.unity.support": {

@@ -13,11 +13,11 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{8228c82b-fe5b-6772-b60e-07868c8bbbed}</ProjectGuid>
+    <ProjectGuid>{24aa406b-8ed2-55e5-f8d3-4f181b3a7d43}</ProjectGuid>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <AssemblyName>AlephVault.Unity.Meetgard.Scopes.Runtime</AssemblyName>
+    <AssemblyName>AlephVault.Unity.RemoteStorage.Runtime</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <BaseDirectory>.</BaseDirectory>
@@ -52,30 +52,24 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard-scopes\Runtime\Authoring\Behaviours\Server\ScopeServerSide_serverManaged.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard-scopes\Runtime\Authoring\Behaviours\Server\ModelServerSide.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard-scopes\Runtime\Types\Protocols\Messages\ObjectDespawned.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard-scopes\Runtime\Authoring\Behaviours\Server\ObjectServerSide.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard-scopes\Runtime\Types\Protocols\ScopesProtocolDefinition.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard-scopes\Runtime\Authoring\Behaviours\Server\ScopesProtocolServerSide_objects.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard-scopes\Runtime\Authoring\Behaviours\Server\ScopeServerSide_objects.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard-scopes\Runtime\Types\Protocols\Messages\ObjectRefreshed.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard-scopes\Runtime\Authoring\Behaviours\Client\ScopeClientSide.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard-scopes\Runtime\Authoring\Behaviours\Client\ScopesProtocolClientSide.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard-scopes\Runtime\Authoring\Behaviours\Server\ScopesProtocolServerSide_world.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard-scopes\Runtime\Authoring\Behaviours\Server\ScopeServerSide.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard-scopes\Runtime\Authoring\Behaviours\Client\ObjectClientSide.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard-scopes\Runtime\Authoring\Behaviours\Client\ModelClientSide.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard-scopes\Runtime\Types\Protocols\Messages\ObjectSpawned.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard-scopes\Runtime\Authoring\Behaviours\Server\ScopesProtocolServerSide_messages.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard-scopes\Runtime\Types\Constants\LoadStatus.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard-scopes\Runtime\Authoring\Behaviours\Server\ScopesProtocolServerSide_connections.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard-scopes\Runtime\Authoring\Behaviours\Client\IObjectClientSideInstanceManager.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard-scopes\Runtime\Types\Protocols\Messages\MovedToScope.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard-scopes\Runtime\Types\Protocols\Messages\WithArbitraryModel.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard-scopes\Runtime\Authoring\Behaviours\Server\ScopesProtocolServerSide.cs" />
-     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard-scopes\Runtime\Types\Constants\Scope.cs" />
-     <None Include="\home\luismasuelli\Projects\Unity\unity-meetgard-scopes\Runtime\AlephVault.Unity.Meetgard.Scopes.Runtime.asmdef" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-remotestorage\Runtime\StandardHttp\Implementation\Engine_Common.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-remotestorage\Runtime\StandardHttp\Implementation\Engine.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-remotestorage\Runtime\Types\Results\Result.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-remotestorage\Runtime\StandardHttp\Types\Cursor.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-remotestorage\Runtime\StandardHttp\Types\Resource.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-remotestorage\Runtime\StandardHttp\Types\Authorization.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-remotestorage\Runtime\StandardHttp\Implementation\Engine_Errors.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-remotestorage\Runtime\StandardHttp\Types\Root.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-remotestorage\Runtime\StandardHttp\Types\Conflict.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-remotestorage\Runtime\StandardHttp\Types\BadRequest.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-remotestorage\Runtime\StandardHttp\Types\Created.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-remotestorage\Runtime\Types\Results\ResultCode.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-remotestorage\Runtime\StandardHttp\Types\ListResource.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-remotestorage\Runtime\Types\Interfaces\IListResource.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-remotestorage\Runtime\Types\Interfaces\IRoot.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-remotestorage\Runtime\Types\Interfaces\ISimpleResource.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-remotestorage\Runtime\StandardHttp\Types\SimpleResource.cs" />
+     <None Include="\home\luismasuelli\Projects\Unity\unity-remotestorage\Runtime\AlephVault.Unity.RemoteStorage.Runtime.asmdef" />
  <Reference Include="UnityEngine">
  <HintPath>/home/luismasuelli/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>
@@ -669,21 +663,13 @@
  </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="AlephVault.Unity.Binary.Runtime.csproj">
-      <Project>{ab833911-51d2-3778-2ec4-44e543521e8f}</Project>
-      <Name>AlephVault.Unity.Binary.Runtime</Name>
-    </ProjectReference>
-    <ProjectReference Include="AlephVault.Unity.Support.Runtime.csproj">
-      <Project>{47b03323-f539-daa5-ef09-5260730ae3fd}</Project>
-      <Name>AlephVault.Unity.Support.Runtime</Name>
-    </ProjectReference>
     <ProjectReference Include="AlephVault.Unity.Support.Generic.Runtime.csproj">
       <Project>{e5a6b271-32d4-ffa9-ba13-1de2de80cb17}</Project>
       <Name>AlephVault.Unity.Support.Generic.Runtime</Name>
     </ProjectReference>
-    <ProjectReference Include="AlephVault.Unity.Meetgard.Runtime.csproj">
-      <Project>{1a936cda-c212-b93d-f838-f45a7f042e56}</Project>
-      <Name>AlephVault.Unity.Meetgard.Runtime</Name>
+    <ProjectReference Include="AlephVault.Unity.Support.Runtime.csproj">
+      <Project>{47b03323-f539-daa5-ef09-5260730ae3fd}</Project>
+      <Name>AlephVault.Unity.Support.Runtime</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

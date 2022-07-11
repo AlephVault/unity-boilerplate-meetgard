@@ -5,6 +5,7 @@
     "com.alephvault.unity.meetgard": "file:../../unity-meetgard",
     "com.alephvault.unity.meetgard.auth": "file:../../unity-meetgard-auth",
     "com.alephvault.unity.meetgard.scopes": "file:../../unity-meetgard-scopes",
+    "com.alephvault.unity.remotestorage": "file:../../unity-remotestorage",
     "com.alephvault.unity.support": "file:../../unity-support",
     "com.alephvault.unity.support.generic": "file:../../unity-support-generic",
     "com.unity.collab-proxy": "1.5.7",
