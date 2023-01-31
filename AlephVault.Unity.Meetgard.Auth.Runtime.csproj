@@ -52,9 +52,11 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard-auth\Runtime\Protocols\Simple\SimpleRegisterProtocolServerSide.cs" />
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard-auth\Runtime\Types\IKickMessage.cs" />
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard-auth\Runtime\Protocols\Simple\SimpleAuthProtocolServerSide_hooks.cs" />
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard-auth\Runtime\Protocols\Simple\SimpleAuthProtocolServerSide.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard-auth\Runtime\Protocols\Simple\SimpleRegisterProtocolDefinition.cs" />
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard-auth\Runtime\Protocols\Simple\SimpleAuthProtocolServerSide_messages.cs" />
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard-auth\Runtime\Protocols\Simple\SimpleAuthProtocolServerSide_wrappers.cs" />
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard-auth\Runtime\Protocols\Simple\SimpleAuthProtocolClientSide.cs" />
@@ -62,6 +64,7 @@
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard-auth\Runtime\Protocols\Simple\SimpleAuthProtocolServerSide_login.cs" />
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard-auth\Runtime\Protocols\Simple\SimpleAuthProtocolServerSide_sessions.cs" />
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard-auth\Runtime\Types\AccountAlreadyLoggedManagementMode.cs" />
+     <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard-auth\Runtime\Protocols\Simple\SimpleRegisterProtocolClientSide.cs" />
      <Compile Include="\home\luismasuelli\Projects\Unity\unity-meetgard-auth\Runtime\Types\IRecordWithPreview.cs" />
      <None Include="\home\luismasuelli\Projects\Unity\unity-meetgard-auth\Runtime\AlephVault.Unity.Meetgard.Auth.Runtime.asmdef" />
  <Reference Include="UnityEngine">

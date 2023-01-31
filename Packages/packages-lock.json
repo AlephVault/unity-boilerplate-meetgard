@@ -8,6 +8,12 @@
         "com.alephvault.unity.support": "0.0.1"
       }
     },
+    "com.alephvault.unity.boilerplates": {
+      "version": "file:/home/luismasuelli/Projects/Unity/unity-boilerplates",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {}
+    },
     "com.alephvault.unity.layout": {
       "version": "file:../../unity-layout",
       "depth": 0,
@@ -23,6 +29,8 @@
       "dependencies": {
         "com.alephvault.unity.support": "0.0.1",
         "com.alephvault.unity.layout": "0.0.1",
+        "com.alephvault.unity.menuactions": "0.0.1",
+        "com.alephvault.unity.boilerplates": "0.0.1",
         "com.alephvault.unity.binary": "0.0.1"
       }
     },
@@ -31,7 +39,7 @@
       "depth": 0,
       "source": "local",
       "dependencies": {
-        "com.alephvault.unity.meetgard": "0.0.2",
+        "com.alephvault.unity.meetgard": "0.0.3",
         "com.alephvault.unity.support.generic": "0.0.1"
       }
     },
@@ -40,8 +48,16 @@
       "depth": 0,
       "source": "local",
       "dependencies": {
-        "com.alephvault.unity.meetgard": "0.0.2",
+        "com.alephvault.unity.meetgard": "0.0.3",
         "com.alephvault.unity.support.generic": "0.0.1"
+      }
+    },
+    "com.alephvault.unity.menuactions": {
+      "version": "file:/home/luismasuelli/Projects/Unity/unity-menu-actions",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {
+        "com.alephvault.unity.layout": "0.0.1"
       }
     },
     "com.alephvault.unity.remotestorage": {
@@ -116,6 +132,22 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
+    "com.unity.sysroot": {
+      "version": "2.0.5",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.sysroot.linux-x86_64": {
+      "version": "2.0.4",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.sysroot": "2.0.5"
+      },
+      "url": "https://packages.unity.com"
+    },
     "com.unity.test-framework": {
       "version": "1.1.24",
       "depth": 0,
@@ -145,6 +177,16 @@
         "com.unity.modules.animation": "1.0.0",
         "com.unity.modules.audio": "1.0.0",
         "com.unity.modules.particlesystem": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.toolchain.linux-x86_64": {
+      "version": "2.0.4",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.sysroot": "2.0.5",
+        "com.unity.sysroot.linux-x86_64": "2.0.4"
       },
       "url": "https://packages.unity.com"
     },

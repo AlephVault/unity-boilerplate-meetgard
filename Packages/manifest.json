@@ -1,10 +1,12 @@
 {
   "dependencies": {
     "com.alephvault.unity.binary": "file:../../unity-binary",
+    "com.alephvault.unity.boilerplates": "file:/home/luismasuelli/Projects/Unity/unity-boilerplates",
     "com.alephvault.unity.layout": "file:../../unity-layout",
     "com.alephvault.unity.meetgard": "file:../../unity-meetgard",
     "com.alephvault.unity.meetgard.auth": "file:../../unity-meetgard-auth",
     "com.alephvault.unity.meetgard.scopes": "file:../../unity-meetgard-scopes",
+    "com.alephvault.unity.menuactions": "file:/home/luismasuelli/Projects/Unity/unity-menu-actions",
     "com.alephvault.unity.remotestorage": "file:../../unity-remotestorage",
     "com.alephvault.unity.support": "file:../../unity-support",
     "com.alephvault.unity.support.generic": "file:../../unity-support-generic",
@@ -15,6 +17,7 @@
     "com.unity.test-framework": "1.1.24",
     "com.unity.textmeshpro": "3.0.6",
     "com.unity.timeline": "1.4.8",
+    "com.unity.toolchain.linux-x86_64": "2.0.4",
     "com.unity.ugui": "1.0.0",
     "com.unity.modules.ai": "1.0.0",
     "com.unity.modules.androidjni": "1.0.0",
