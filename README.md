@@ -11,12 +11,13 @@ Dependencies versioning and status
 
 So far this project relies on a set of packages that I could consider, at best, in beta status. These packages are not officially released and they are tagged 0.0.1. The referenced packages exist into this organization and must be cloned individually besides this boilerplate (i.e. as a sibling directory). They are:
 
- - com.alephvault.unity.support: [Clone it - 0.0.1](https://github.com/AlephVault/unity-support).
- - com.alephvault.unity.support.generic: [Clone it - 0.0.1](https://github.com/AlephVault/unity-support-generic).
- - com.alephvault.unity.binary: [Clone it - 0.0.1](https://github.com/AlephVault/unity-binary).
- - com.alephvault.unity.layout: [Clone it - 0.0.1](https://github.com/AlephVault/unity-layout).
- - com.alephvault.unity.meetgard: [Clone it - 0.0.2](https://github.com/AlephVault/unity-meetgard).
- - com.alephvault.unity.meetgard.auth: [Clone it - 0.0.2](https://github.com/AlephVault/unity-meetgard-auth).
- - com.alephvault.unity.meetgard.scopes: [Clone it - 0.0.2](https://github.com/AlephVault/unity-meetgard-scopes).
- - com.alephvault.unity.remotestorage: [Clone it - 0.0.2](https://github.com/AlephVault/unity-remotestorage).
+ - com.alephvault.unity.support: [Clone it - 0.0.2](https://github.com/AlephVault/unity-support/tree/0.0.2).
+ - com.alephvault.unity.support.generic: [Clone it - 0.0.1](https://github.com/AlephVault/unity-support-generic/tree/0.0.1).
+ - com.alephvault.unity.binary: [Clone it - 0.0.2](https://github.com/AlephVault/unity-binary/tree/0.0.2).
+ - com.alephvault.unity.layout: [Clone it - 0.0.1](https://github.com/AlephVault/unity-layout/tree/0.0.1).
+ - com.alephvault.unity.menuactions: [Clone it - 0.0.1](https://github.com/AlephVault/unity-menu-actions/tree/0.0.1).
+ - com.alephvault.unity.meetgard: [Clone it - 0.0.3](https://github.com/AlephVault/unity-meetgard/tree/0.0.3).
+ - com.alephvault.unity.meetgard.auth: [Clone it - 0.0.3](https://github.com/AlephVault/unity-meetgard-auth/tree/0.0.3).
+ - com.alephvault.unity.meetgard.scopes: [Clone it - 0.0.3](https://github.com/AlephVault/unity-meetgard-scopes/tree/0.0.3).
+ - com.alephvault.unity.remotestorage: [Clone it - 0.0.2](https://github.com/AlephVault/unity-remotestorage/tree/0.0.2).
 
