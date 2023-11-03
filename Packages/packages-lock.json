@@ -9,7 +9,7 @@
       }
     },
     "com.alephvault.unity.boilerplates": {
-      "version": "file:/home/luismasuelli/Projects/Unity/unity-boilerplates",
+      "version": "file:../../unity-boilerplates",
       "depth": 0,
       "source": "local",
       "dependencies": {}
@@ -53,7 +53,7 @@
       }
     },
     "com.alephvault.unity.menuactions": {
-      "version": "file:/home/luismasuelli/Projects/Unity/unity-menu-actions",
+      "version": "file:../../unity-menu-actions",
       "depth": 0,
       "source": "local",
       "dependencies": {
