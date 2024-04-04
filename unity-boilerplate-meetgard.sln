@@ -7,9 +7,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlephVault.Unity.Meetgard.S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlephVault.Unity.Meetgard.Runtime", "AlephVault.Unity.Meetgard.Runtime.csproj", "{1a936cda-c212-b93d-f838-f45a7f042e56}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlephVault.Unity.Boilerplates.Editor", "AlephVault.Unity.Boilerplates.Editor.csproj", "{5a8cb2e2-d38a-16ab-0377-17f1b0007c09}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlephVault.Unity.Support.Runtime", "AlephVault.Unity.Support.Runtime.csproj", "{47b03323-f539-daa5-ef09-5260730ae3fd}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlephVault.Unity.Boilerplates.Editor", "AlephVault.Unity.Boilerplates.Editor.csproj", "{5a8cb2e2-d38a-16ab-0377-17f1b0007c09}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlephVault.Unity.Support.Generic.Editor", "AlephVault.Unity.Support.Generic.Editor.csproj", "{d7a7e78b-1dc7-554d-d320-a360f482f540}"
 EndProject
@@ -48,10 +48,10 @@ Global
 		{8228c82b-fe5b-6772-b60e-07868c8bbbed}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1a936cda-c212-b93d-f838-f45a7f042e56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1a936cda-c212-b93d-f838-f45a7f042e56}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5a8cb2e2-d38a-16ab-0377-17f1b0007c09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5a8cb2e2-d38a-16ab-0377-17f1b0007c09}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{47b03323-f539-daa5-ef09-5260730ae3fd}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{47b03323-f539-daa5-ef09-5260730ae3fd}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5a8cb2e2-d38a-16ab-0377-17f1b0007c09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5a8cb2e2-d38a-16ab-0377-17f1b0007c09}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{d7a7e78b-1dc7-554d-d320-a360f482f540}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{d7a7e78b-1dc7-554d-d320-a360f482f540}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{e5a6b271-32d4-ffa9-ba13-1de2de80cb17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
