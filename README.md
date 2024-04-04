@@ -4,7 +4,7 @@ This is a boilerplate project. It includes Meetgard and all the required depende
 Unity version
 -------------
 
-The current status is meant to be used in Unity 2023.1.13f1 or better. The upper version is not yet determined, and lower versions are not supported (i.e. it may work, but with no responsibilities from the development side).
+The current status is meant to be used in Unity 2023.2.8f1 or better. The upper version is not yet determined, and lower versions are not supported (i.e. it may work, but with no responsibilities from the development side).
 
 Dependencies versioning and status
 ----------------------------------
